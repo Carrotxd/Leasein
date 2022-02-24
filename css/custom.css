@@ -2,8 +2,32 @@
 */
 @font-face {
   font-family: Inter;
-  src: url("./fonts/static/Inter-Black.ttf"); /* IE */
+  src: url("../fonts/static/Inter-Medium.ttf"); /* IE */
   font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/static/Inter-SemiBold.ttf"); /* IE */
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/static/Inter-Bold.ttf"); /* IE */
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/static/Inter-ExtraBold.ttf"); /* IE */
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/static/Inter-Black.ttf"); /* IE */
+  font-weight: 900;
   font-style: normal;
 }
 
