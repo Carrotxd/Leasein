@@ -1,32 +1,30 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
-*/
 @font-face {
   font-family: Inter;
-  src: url("../fonts/static/Inter-Medium.ttf"); /* IE */
+  src: url("../fonts/static/Inter-Medium.ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Inter;
-  src: url("../fonts/static/Inter-SemiBold.ttf"); /* IE */
+  src: url("../fonts/static/Inter-SemiBold.ttf"); 
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: Inter;
-  src: url("../fonts/static/Inter-Bold.ttf"); /* IE */
+  src: url("../fonts/static/Inter-Bold.ttf"); 
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Inter;
-  src: url("../fonts/static/Inter-ExtraBold.ttf"); /* IE */
+  src: url("../fonts/static/Inter-ExtraBold.ttf");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: Inter;
-  src: url("../fonts/static/Inter-Black.ttf"); /* IE */
+  src: url("../fonts/static/Inter-Black.ttf"); 
   font-weight: 900;
   font-style: normal;
 }
@@ -51,7 +49,7 @@ body {
 
 .portada{
 	background-color: #f7fafc;
-	background-image: url('/img/bg-1.png');
+	background-image: url('../img/bg-1.png');
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: 100% 50%;
@@ -316,7 +314,7 @@ footer .input-group{
 	height: 500px;
 	background-position: 50% 50%;
 	background-size: cover;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/bg-1.png');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/bg-1.png');
   }
   .main-title{
   	color: #fff;
