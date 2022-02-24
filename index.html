@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lease in Evaluation</title>
+
+	<script src="https://kit.fontawesome.com/6492823ce7.js" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link" href="#laptops">Laptops</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="#places">Places</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="#about">About</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" type = "button" onclick="focusSubscribe()">Subscribe</a>
+				        </li>
+			      	</ul>
+			    </div>
+			</div>
+		</nav>
+	</header>
+	<!-- Inicio de Portada -->
+	<div class = "portada">
+		<div class="container">		
+			<div class="row" >
+				<div class=" col-lg-6 col-xxl-5 mt-5 mb-5">
+					<h1 class = "main-title">Find Perfect Laptops <br> <span> anywhere you go.</span></h1>
+					<br>
+
+					<p class="main-text d-none d-xl-block"> We've been in the laptops business across the world
+					for 5 years now. We assure you that you will always
+					enjoy your stay with us.</p>
+
+					<br class="main-text d-none d-xl-block">
+					<div class =" button-group">
+						<button type="button" class="btn btn-primario">Sign Up</button>
+						<button type="button" class="btn btn-secundario">Search Laptops</button>
+					</div>
+									
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin de portada -->
+	
+
+	<div class="container">
+		<!-- Inicio de Popular laptops -->
+		<div class="laptops-section" id = "laptops">
+			<h1> Popular laptops</h1>
+
+			<div class="row mt-5">
+				<div class="col-lg-4">
+					<div class="card item">
+						<div class="card-header">
+							<img src="/img/laptop-hp.png" alt="" width="100%">
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="col-9 col-lg12 col-xl-9">
+									<h4><b>HP</b></h4>
+								</div>
+								<div class="col-3 col-lg-12 col-xl-3 text-xl-end">
+									<span class ="rating">
+										<i class="fa-solid fa-star"></i>
+									 	4.5
+									 	<br>
+									 	<br class="d-xl-none">
+									</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">
+									<span class="location">
+										<i class="fa-solid fa-location-dot"></i> Lima, Perú
+									</span>
+								</div>
+								<div class="col-sm-6">
+									<span class="price">
+										<i class="fa-solid fa-dollar-sign"></i> USD 42/Day
+									</span>
+								</div>
+							</div>
+							<div>
+								<br>
+								<p>
+									Lorem ipsum dolor sit amet, consectur dolori
+									adipiscing elit, sed do eiusmod tempor nova
+									incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>	
+						</div>
+						<div class="card-footer text-center">
+							<button class="btn btn-primary"><b>Alquilar</b></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card item">
+						<div class="card-header">
+							<img src="/img/laptop-lenovo.png" alt="" width="100%">
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="col-9 col-lg12 col-xl-9">
+									<h4><b>Lenovo</b></h4>
+								</div>
+								<div class="col-3 col-lg-12 col-xl-3 text-xl-end">
+									<span class ="rating">
+										<i class="fa-solid fa-star"></i>
+									 	4.8
+									 	<br>
+									 	<br class="d-xl-none">
+									</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">
+									<span class="location">
+										<i class="fa-solid fa-location-dot"></i> Lima, Perú
+									</span>
+								</div>
+								<div class="col-sm-6">
+									<span class="price">
+										<i class="fa-solid fa-dollar-sign"></i> USD 35/Day
+									</span>
+								</div>
+							</div>
+							<div>
+								<br>
+								<p>
+									Lorem ipsum dolor sit amet, consectur dolori
+									adipiscing elit, sed do eiusmod tempor nova
+									incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
+						</div>
+						<div class="card-footer text-center">
+							<button class= "btn btn-primary"><b>Alquilar</b></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card item">
+						<div class="card-header">
+							<img src="/img/laptop-acer.png" alt="" width="100%">
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="col-9 col-lg12 col-xl-9">
+									<h4><b>Acer</b></h4>
+								</div>
+								<div class="col-3 col-lg-12 col-xl-3 text-xl-end">
+									<span class ="rating">
+										<i class="fa-solid fa-star"></i>
+									 	4.9
+									 	<br>
+									 	<br class="d-xl-none">
+									</span>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">
+									<span class="location">
+										<i class="fa-solid fa-location-dot"></i> Lima, Perú
+									</span>
+								</div>
+								<div class="col-sm-6">
+									<span class="price">
+										<i class="fa-solid fa-dollar-sign"></i> USD 39/Day
+									</span>
+								</div>
+							</div>
+							<div>
+								<br>
+								<p>
+									Lorem ipsum dolor sit amet, consectur dolori
+									adipiscing elit, sed do eiusmod tempor nova
+									incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>	
+						</div>
+						<div class="card-footer text-center">
+							<button class = "btn btn-primary"><b>Alquilar</b></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Fin de Popular Laptops -->
+		<!-- Inicio de Trending Places -->
+		<div class="row places-section" id = "places">
+			<div class="col-lg-5">
+				<h1>Trending Places</h1>
+				<p class = "mt-5 places-description">Lorem ipsum dolor sit amet, consectetur
+				adipiscing elit, sed do eiusmod tempor incididunt
+				ut labore et dolore magna aliqua enim ad minim
+				veniam.</p>
+			</div>
+			<div class="col-lg-7">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="card place">
+							<div class="card-header ">
+								<img src="/img/places-1.png" alt="" width="100%">
+							</div>
+							<div class="card-body">
+								<div class="row">
+									<div class="col-sm-6 location">Beachfront</div>
+									<div class="col-sm-6 text-end price">$99 <span>per day</span></div>
+								</div>
+								<br>
+								<div class="row">
+									<h5><b>A Trip to the Bahamas and the Cariben Ocean</b></h5>
+								</div>
+								<div class="row details">
+									<div class="col-sm-4">
+										<span><i class="fa-solid fa-arrow-trend-up"></i> TRENDING</span>
+									</div>
+									<div class="col-sm-4">
+										<span><i class="fa-solid fa-clock"></i> 7 DAYS</span>
+									</div>
+									<div class="col-sm-4">
+										<span><i class="fa-solid fa-location-dot"></i>AUSTRALIA</span>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<button class="btn btn-primario">Book Now</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="card place">
+							<div class="card-header">
+								<img src="/img/places-2.png" alt="" width="100%">
+							</div>
+							<div class="card-body">
+								<div class="row">
+									<div class="col-sm-6 location">Beachfront</div>
+									<div class="col-sm-6 text-end price">$99 <span>per day</span></div>
+								</div>
+								<br>
+								<div class="row">
+									<h5><b>A Trip to the Bahamas and the Cariben Ocean</b></h5>
+									<br>
+								</div>
+								<div class="row details">
+									<div class="col-sm-4">
+										<span><i class="fa-solid fa-arrow-trend-up"></i> TRENDING</span>
+									</div>
+									<div class="col-sm-4">
+										<span><i class="fa-solid fa-clock"></i> 7 DAYS</span>
+									</div>
+									<div class="col-sm-4">
+										<span><i class="fa-solid fa-location-dot"></i>AUSTRALIA</span>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<button class="btn btn-primario">Book Now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!-- Fin de Trending Places -->
+		<!-- Inicio de We have the best service -->
+		<div class="row service-section" id ="about">
+			<div class="col-lg-5 order-last order-lg-first">
+				<img src="/img/bg-2.png" alt="" width="100%">
+			</div>
+			<div class="col-lg-7 order-first order-lg-last text">
+				<h1>We have the best service.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+				commodo consequat.</p>
+				<br>
+				<div class="data">
+					<div class="row">
+						<div class="col-6">
+							<h2>192 <br><span>Countries</span></h2>
+						</div>
+						<div class="col-6">
+							<h2>479 <br><span>Hotels</span></h2>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-6">
+							<h2>2093 <br><span>Room</span></h2>
+
+						</div>
+						<div class="col-6">
+							<h2>10347 <br><span>Workers</span></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Fin de We have the best service -->
+	</div>
+	<!-- Inicio del footer -->
+	<footer id = "subscribe">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div>
+						<div class="row">
+							<div class="col-sm-3 text-center text-lg-end">
+								<div class="icon mt-2">
+									<i class="fa-solid fa-envelope-open-text"></i>
+								</div>
+							</div>
+							<div class="col-sm-9 text-center">
+								<div class="text">
+									<h1>Newsletter</h1>
+									<span>Subscribe now to get our latest blog posts.</span>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="input-group pt-4">
+					 	<input type="email" class="form-control" placeholder="Your Email Address" id = "subscribe-input">
+						<div class="input-group-append">
+							<button class="btn btn-subscribe" type="button">Subscribe Now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Fin del footer -->
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	</body>
+</html>
